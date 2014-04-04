@@ -10,4 +10,12 @@
 
 @interface CCViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UILabel *numberOfBillsLabel;
+
+@property (strong, nonatomic) IBOutlet UITextField *numberOfBillsTextField;
+
+@property (strong, nonatomic) IBOutlet UILabel *numberOfFootballFields;
+
+- (IBAction)convertUnitsButton:(UIButton *)sender;
+
 @end
